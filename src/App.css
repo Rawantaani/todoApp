@@ -1,0 +1,99 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@1,5..1200,500&display=swap');
+
+.to{
+    
+}
+
+.app {
+    width: 100vw;
+    height: 100vh;
+
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+    position: relative;
+
+}
+
+.app:before {
+    content: '';
+    background: url(./assets/pexels-karolina-grabowska-5412284.jpg) no-repeat center center/cover;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+
+}
+
+.add {
+    width: 70%;
+    max-width: 40%;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+
+}
+
+.add input {
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 1rem 2rem;
+    width: 70%;
+}
+
+.add button {
+    background: white;
+
+
+    border-radius: 50px;
+    aspect-ratio: 1;
+    height: 80%;
+
+    position: absolute;
+    top: 10%;
+    right: 31%;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+}
+
+input:focus {
+    outline: 2px solid white;
+}
+
+.container {
+    position: absolute;
+    top: 18%;
+    left: 5%;
+}
+
+p {
+    color: black;
+}
+
+.it {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+
+}
+
+.item {
+    width: 40%;
+    max-width: 40%;
+    border-radius: 15px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.5);
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2px;
+
+}
+
+.text {
+    padding-left: 8px;
+    text-align: center;
+}
