@@ -27,7 +27,7 @@
 
 .add {
     width: 70%;
-    max-width: 40%;
+    min-width: 40%;
     position: absolute;
     top: 5%;
     left: 5%;
